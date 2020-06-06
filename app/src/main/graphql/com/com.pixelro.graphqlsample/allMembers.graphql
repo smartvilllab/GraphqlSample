@@ -1,0 +1,7 @@
+query allMembers($email: String, $id: String) {
+    allMembers(where : { email : $email, id : $id}) {
+        id
+        email
+    }
+}
+
